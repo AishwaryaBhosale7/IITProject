@@ -1,0 +1,21 @@
+table {
+    table-layout: auto; 
+    width: 100%; 
+}
+
+th, td {
+    overflow: visible; 
+    white-space: nowrap; 
+}
+
+input[type="text"] {
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.selected {
+    background-color: #d3d3d3;
+}
+.toolbar button {
+    margin-left: 5px; /* Adjust spacing between buttons */
+}
+

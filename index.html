@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>240912_Task_JS_Programmert</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center my-4">
+            <h2>Chemical Supplies</h2>
+            <div class="toolbar">
+                <button class="btn btn-primary" onclick="addRow()">Add Row</button>
+                <button class="btn btn-secondary" onclick="moveRowDown()">Move Down</button>
+                <button class="btn btn-secondary" onclick="moveRowUp()">Move Up</button>
+                <button class="btn btn-danger" onclick="deleteRow()">Delete Row</button>
+                <button class="btn btn-info" onclick="refreshData()">Refresh</button>
+                <button class="btn btn-success" onclick="saveData()">Save</button>
+            </div>
+        </div>
+        <table class="table table-bordered" id="chemicalTable">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">ID</th>
+                    <th onclick="sortTable(1)">Chemical Name</th>
+                    <th onclick="sortTable(2)">Vendor</th>
+                    <th onclick="sortTable(3)">Density  g/m <sup>3</sup></th>
+                    <th onclick="sortTable(4)">Viscosity  m <sup>2</sup>/s</th>
+                    <th onclick="sortTable(5)">Packaging</th>
+                    <th onclick="sortTable(6)">Pack Size</th>
+                    <th onclick="sortTable(7)">Unit</th>
+                    <th onclick="sortTable(8)">Quantity</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+    
+   </body>
+</html>
