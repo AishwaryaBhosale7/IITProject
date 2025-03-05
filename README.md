@@ -22,3 +22,7 @@ A small web application for managing chemical supplies, with functionalities for
 ## Libraries
 - Bootstrap 4.5 (for styling)
 
+
+## 🌍 Live Demo
+https://aishwaryabhosale7.github.io/IITProject/
+
